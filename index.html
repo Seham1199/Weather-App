@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>WeatherApp</title>
+</head>
+
+<body id="bodyBg" class="d-flex justify-content-center align-items-center min-vh-100">
+<section>
+    <div class="container position-relative rounded-4 p-4">
+        <div class="search-box d-flex align-items-center bg-warning position-relative w-100 mt-3">
+            <i class="location-icon fa-solid fa-location-dot position-absolute text-light"></i>
+            <input type="text" name="search" id="search" class="form-control w-100 position-absolute bg-transparent px-4" placeholder="Enter Your Location..."/>
+           <i id="searchIcon" class="search-icon fa-solid fa-magnifying-glass end-0 position-absolute pe-2 text-light" role="button"></i>
+        </div>
+
+        <div class="weather-box text-center text-white my-5">
+            <div class="box">
+                <div class="info-weather">
+                    <div class="weather">
+                        
+                        <img id="image"  alt="cloud" class=" w-50"/>
+                        <h1 id="weatherDay" class="text-center my-3">Sunday</h1>
+                        <p  class="position-relative  fw-semibold lh-1 ">
+                            <span id="teamperature"></span>
+                            <span class="position-absolute"><sup>o</sup>C</span>
+                        </p>
+                        <p id="description" class="me-3"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="weather-details text-light  start-0 w-100 d-flex justify-content-between align-items-center p-3">
+            
+            <div>
+                <i class="fa-solid fa-water me-2 fs-5"></i>
+              
+                   
+                <span id="humidity" class="fw-normal "></span>
+            
+            <p class="fw-normal">Humidity</p>
+            </div>
+               
+             
+            <div class="">
+                <i class="fa-solid fa-wind me-2 fs-5"></i>
+              
+                <span id="wind" class="fw-normal d-inline-block"></span>
+            
+            <p class="fw-normal">Wind Speed</p>
+            </div>
+               
+                </div>
+           
+
+
+    </div>
+</section>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../images/sky-covered-with-clouds.jpg);
+  background-size: cover;
+  background-position: center center;
+ 
+}
+.container {
+  width: 400px;
+  height: 555px ;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+.location-icon{
+  left: 10px;
+}
+.search-box input{
+  border: 2px solid rgba(255, 255, 255, 0.2) ;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+.form-control:focus{
+border-color: #fff;
+box-shadow: none;
+}
+.search-box input::placeholder{
+  color: #fff;
+  padding-left: 5px;
+}
+#teamperature{
+  font-size: 50px;
+  margin: 20px 0 6px -30px;
+}
+#teamperature span{
+  font-size: 20px;
+  margin-left: 4px;
+}
+@media (max-width:767px) {
+.container{
+  width: 330px;
+  height: 480px;
+}
+}
