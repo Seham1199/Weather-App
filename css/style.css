@@ -34,6 +34,8 @@ body{
 .form-control:focus{
 border-color: #fff;
 box-shadow: none;
+color: brown !important;
+font-weight: bold;
 }
 .search-box input::placeholder{
   color: #fff;
