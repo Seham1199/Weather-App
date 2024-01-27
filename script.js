@@ -38,6 +38,7 @@ switch (desc) {
     break;
     case "Partly cloudy":
       image.src = "images/cloud.png"
+      bodyBg.style.backgroundImage = "url('./images/sky-covered-with-clouds.jpg')";
       break;
       case "Rain":
         image.src = "images/rain.png"

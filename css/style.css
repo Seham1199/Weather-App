@@ -20,7 +20,7 @@ body{
   width: 400px;
   height: 555px ;
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(100px);
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
 .location-icon{
