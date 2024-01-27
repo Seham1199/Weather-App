@@ -62,9 +62,10 @@ switch (desc) {
 
 async function startApp(city="london"){
   let weatherData = await getWeatherData(city); 
- 
+ if (!weatherData.error) {
   displayData(weatherData);
-
+ }
+ 
 }
 startApp();
 

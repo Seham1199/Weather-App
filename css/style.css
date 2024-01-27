@@ -28,17 +28,16 @@ body{
 }
 .search-box input{
   border: 2px solid rgba(255, 255, 255, 0.2) ;
-  color: #fff !important;
+  color: brown !important;
+  font-weight: bold;
   text-transform: capitalize;
 }
 .form-control:focus{
 border-color: #fff;
 box-shadow: none;
-color: brown !important;
-font-weight: bold;
 }
 .search-box input::placeholder{
-  color: #fff;
+  color: brown;
   padding-left: 5px;
 }
 #teamperature{
